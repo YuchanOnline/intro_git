@@ -37,3 +37,9 @@ git reset HEAD [ファイル名]
 ■コミットを取り消す
 git checkout [ファイル名]
 
+■GitのConfig一覧
+git config --list
+
+■git status のコメント文字化け対策
+git config --global core.quotepath false
+
