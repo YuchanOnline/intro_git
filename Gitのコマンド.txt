@@ -1,0 +1,39 @@
+■GitHubへ登録
+git remote add origin https://github.com/[ユーザー名]/[レポジトリ名]/
+
+■管理者権限で実行する
+GitBushを右クリックで管理者権限で実行する
+■ディレクトリを移動する
+cd
+■ディレクトリ内のファイル名を参照する
+ls
+
+■ステージングに追加する
+git add[ファイル名]
+git add .
+■ローカルリポジトリへCommitする
+git commit -v
+■コミット時に情報を入力する
+iキー後、入力可能
+■コミット時に情報を入力を終了する
+qキーを押す
+■コミット時の編集を終了する
+escキー後、「:wq」
+■GitHubへプッシュ（登録）する
+git push origin master
+■現在の状況を確認する
+git status
+■ファイルをローカルリポジトリから削除する
+git rm[ファイル名]
+■変更履歴を確認する
+git log
+git log --oneline
+■ステージとの比較する
+git diff
+■ローカルリポジトリと比較する
+git diff HEAD
+■GitHubから引き出す
+git reset HEAD [ファイル名]
+■コミットを取り消す
+git checkout [ファイル名]
+
